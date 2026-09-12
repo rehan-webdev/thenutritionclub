@@ -3,9 +3,9 @@ import type { IconName } from "./ui";
 export const clinic = {
   name: "The Nutrition Club",
   tagline: "Clinical Nutrition & Lifestyle Care",
-  phone: "+91 98200 45120",
+  phone: "+92 300 982 45120",
   email: "hello@thenutritionclub.com",
-  address: "3rd Floor, Wellness Square, Bandra West, Mumbai 400050",
+  address: "3rd Floor, Wellness Square, Gulberg III, Lahore 54660",
   hours: "Mon – Sat · 8:00 AM – 8:00 PM",
 };
 
@@ -47,7 +47,7 @@ export const programs: {
     copy: "Sustainable fat loss or healthy weight gain built around your metabolism, not a template.",
     points: ["Body composition tracking", "Metabolic rate testing", "Habit coaching"],
     duration: "12 weeks",
-    from: "₹4,999",
+    from: "PKR 14,999",
   },
   {
     icon: "Heart",
@@ -55,7 +55,7 @@ export const programs: {
     copy: "Glycemic and lipid control through therapeutic nutrition, coordinated with your physician.",
     points: ["CGM data review", "Sodium & lipid plan", "Medication-aware menus"],
     duration: "16 weeks",
-    from: "₹5,499",
+    from: "PKR 16,999",
   },
   {
     icon: "Stomach",
@@ -63,7 +63,7 @@ export const programs: {
     copy: "Low-FODMAP reintroduction, microbiome support and bloating relief that actually lasts.",
     points: ["Trigger elimination", "Gut symptom diary", "Probiotic guidance"],
     duration: "10 weeks",
-    from: "₹4,499",
+    from: "PKR 13,999",
   },
   {
     icon: "Activity",
@@ -71,7 +71,7 @@ export const programs: {
     copy: "Fuel strategy, hydration and recovery macros for athletes and serious gym-goers.",
     points: ["Training-day macros", "Supplement audit", "Race-day fuelling"],
     duration: "8 weeks",
-    from: "₹6,299",
+    from: "PKR 18,999",
   },
   {
     icon: "Leaf",
@@ -79,7 +79,7 @@ export const programs: {
     copy: "Insulin-sensitising nutrition and cycle-aware plans for PCOS, thyroid and fertility.",
     points: ["Insulin resistance plan", "Cycle-phase meals", "Fertility prep"],
     duration: "16 weeks",
-    from: "₹5,999",
+    from: "PKR 17,999",
   },
   {
     icon: "Baby",
@@ -87,7 +87,7 @@ export const programs: {
     copy: "Prenatal, postnatal and paediatric nutrition — from first trimester to fussy eaters.",
     points: ["Trimester-wise plans", "Lactation support", "Kid-friendly menus"],
     duration: "Ongoing",
-    from: "₹4,299",
+    from: "PKR 12,999",
   },
   {
     icon: "Flask",
@@ -95,7 +95,7 @@ export const programs: {
     copy: "Therapeutic diets for kidney, liver, oncology and post-surgery recovery patients.",
     points: ["Protein & potassium control", "Tube-feed planning", "Recovery nutrition"],
     duration: "Custom",
-    from: "₹6,999",
+    from: "PKR 20,999",
   },
   {
     icon: "Building",
@@ -132,28 +132,28 @@ export const steps = [
 
 export const team = [
   {
-    name: "Dr. Ananya Rao",
+    name: "Dr. Ayesha Khan",
     role: "Chief Clinical Dietitian",
     creds: "PhD Nutrition · RD · 14 yrs",
     focus: ["Metabolic health", "Diabetes reversal"],
     img: "https://images.pexels.com/photos/12889997/pexels-photo-12889997.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=700",
   },
   {
-    name: "Rohan Mehta",
+    name: "Hamza Malik",
     role: "Sports Nutritionist",
     creds: "MSc Sports Nutrition · 9 yrs",
     focus: ["Performance", "Body recomposition"],
     img: "https://images.pexels.com/photos/32254658/pexels-photo-32254658.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=700",
   },
   {
-    name: "Dr. Priya Nair",
+    name: "Dr. Sana Ahmed",
     role: "Gut & Hormone Specialist",
     creds: "MD · Integrative Nutrition · 11 yrs",
     focus: ["PCOS", "IBS & FODMAP"],
     img: "https://images.pexels.com/photos/6749778/pexels-photo-6749778.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=700",
   },
   {
-    name: "Meera Kapoor",
+    name: "Maryam Shah",
     role: "Paediatric Dietitian",
     creds: "RD · Child Nutrition · 8 yrs",
     focus: ["Kids & teens", "Prenatal care"],
@@ -165,8 +165,8 @@ export const plans = [
   {
     name: "Kickstart",
     blurb: "A focused reset for anyone starting their nutrition journey.",
-    monthly: 2499,
-    quarterly: 6299,
+    monthly: 24999,
+    quarterly: 62999,
     features: [
       "1 dietitian consultation / month",
       "Personalised 4-week meal plan",
@@ -179,8 +179,8 @@ export const plans = [
   {
     name: "Transform",
     blurb: "Our most-loved plan — full clinical support with weekly reviews.",
-    monthly: 4499,
-    quarterly: 11499,
+    monthly: 44999,
+    quarterly: 114999,
     features: [
       "Weekly 1-on-1 video consults",
       "BIA body composition every month",
@@ -194,8 +194,8 @@ export const plans = [
   {
     name: "Clinical Pro",
     blurb: "Medically supervised care for chronic and complex conditions.",
-    monthly: 7999,
-    quarterly: 20999,
+    monthly: 79999,
+    quarterly: 209999,
     features: [
       "Dedicated senior dietitian + MD review",
       "Unlimited consults & plan changes",
@@ -219,22 +219,22 @@ export const testimonials = [
   {
     quote:
       "I came in pre-diabetic with an HbA1c of 6.4. Eight months later it's 5.3 and I eat rice every single day. They rebuilt my plate, not my personality.",
-    name: "Sanjana Iyer",
+    name: "Hira Siddiqui",
     meta: "Marketing lead · Lost 14 kg",
     img: "https://images.pexels.com/photos/37722825/pexels-photo-37722825.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=300",
     rating: 5,
   },
   {
     quote:
-      "As a marathoner I'd tried four coaches. Rohan was the first to look at my blood work before touching my macros. Personal best at Mumbai this year.",
-    name: "Dev Sharma",
+      "As a marathoner I'd tried four coaches. Hamza was the first to look at my blood work before touching my macros. Personal best at Lahore this year.",
+    name: "Bilal Khan",
     meta: "Endurance athlete · 3:12 PB",
     img: "https://images.pexels.com/photos/15019490/pexels-photo-15019490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=300",
     rating: 5,
   },
   {
     quote:
-      "PCOS made me feel like my body was working against me. Dr. Priya's cycle-based plan brought my periods back in four months, without any crash dieting.",
+      "PCOS made me feel like my body was working against me. Dr. Sana's cycle-based plan brought my periods back in four months, without any crash dieting.",
     name: "Fatima Sheikh",
     meta: "Architect · PCOS program",
     img: "https://images.pexels.com/photos/8852029/pexels-photo-8852029.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=300",
@@ -242,8 +242,8 @@ export const testimonials = [
   },
   {
     quote:
-      "My son is the fussiest eater alive. Meera turned mealtimes from a war zone into something we actually enjoy. He asks for palak now. Actual magic.",
-    name: "Arjun Patel",
+      "My son is the fussiest eater alive. Maryam turned mealtimes from a war zone into something we actually enjoy. He asks for saag now. Actual magic.",
+    name: "Ali Raza",
     meta: "Parent · Mother & Child program",
     img: "https://images.pexels.com/photos/27544052/pexels-photo-27544052.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=300",
     rating: 5,
@@ -277,11 +277,11 @@ export const posts = [
 export const faqs = [
   {
     q: "Do I need to visit the clinic in person?",
-    a: "Not at all. Around 70% of our members are fully online — consultations happen over secure video, and body-composition data can be logged from any smart scale. If you're in Mumbai, you're welcome to use our in-clinic BIA and metabolic testing at no extra cost on the Transform and Clinical Pro plans.",
+    a: "Not at all. Around 70% of our members are fully online — consultations happen over secure video, and body-composition data can be logged from any smart scale. If you're in Lahore, you're welcome to use our in-clinic BIA and metabolic testing at no extra cost on the Transform and Clinical Pro plans.",
   },
   {
     q: "Will I have to give up rice, roti or my favourite foods?",
-    a: "No. Our entire philosophy is built on the food already in your kitchen. We adjust portions, pairings and timing rather than banning food groups. Members regularly eat biryani, dosa and dessert while still hitting their goals.",
+    a: "No. Our entire philosophy is built on the food already in your kitchen. We adjust portions, pairings and timing rather than banning food groups. Members regularly eat biryani, naan and dessert while still hitting their goals.",
   },
   {
     q: "How soon will I see results?",
@@ -313,10 +313,10 @@ export const timeSlots = [
 ];
 
 export const marqueeItems = [
-  "Indian Dietetic Association",
+  "Pakistan Nutrition & Dietetic Society",
   "Certified Diabetes Educators",
   "ISSN Sports Nutrition",
   "Monash FODMAP Trained",
-  "NABL Partner Labs",
-  "IAP Paediatric Nutrition",
+  "PNAC Partner Labs",
+  "Pakistan Paediatric Nutrition",
 ];

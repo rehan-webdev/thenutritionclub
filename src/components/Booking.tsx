@@ -123,7 +123,7 @@ export default function Booking() {
                       <Label>Phone number *</Label>
                       <input
                         className={cn(inputCls, errors.phone && "border-red-300 ring-2 ring-red-100")}
-                        placeholder="+91 98200 00000"
+                        placeholder="+92 300 000 0000"
                         value={f.phone}
                         onChange={(e) => set("phone", e.target.value)}
                       />
@@ -302,8 +302,8 @@ export default function Booking() {
                 </div>
                 <div className="flex items-center justify-between gap-4 p-5">
                   <div>
-                    <p className="text-[14px] font-bold text-ink">Bandra West Flagship Clinic</p>
-                    <p className="text-[12.5px] text-ink-soft">8 min from Bandra station · Valet parking</p>
+                    <p className="text-[14px] font-bold text-ink">Gulberg III Flagship Clinic</p>
+                    <p className="text-[12.5px] text-ink-soft">8 min from Liberty Market · Valet parking</p>
                   </div>
                   <a
                     href="#book"

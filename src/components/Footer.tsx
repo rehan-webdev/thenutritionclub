@@ -99,7 +99,7 @@ export default function Footer() {
                 </span>
               </div>
               <p className="mt-5 max-w-sm text-[13.5px] leading-relaxed text-white/60">
-                A clinical nutrition practice in Mumbai helping people manage weight,
+                A clinical nutrition practice in Lahore helping people manage weight,
                 metabolic disease and gut health with evidence-based, culturally familiar food.
               </p>
 

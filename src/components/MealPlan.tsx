@@ -11,11 +11,11 @@ const PLANS: Plan[] = [
     label: "Fat loss",
     note: "High-protein, high-fibre · ~1,500 kcal",
     meals: [
-      { time: "7:30 AM", name: "Breakfast", items: "Moong chilla + mint chutney, 1 boiled egg, green tea", kcal: 340 },
-      { time: "11:00 AM", name: "Mid-morning", items: "Guava with chaat masala + 6 soaked almonds", kcal: 150 },
-      { time: "1:30 PM", name: "Lunch", items: "2 phulka, rajma, cucumber-carrot salad, curd", kcal: 480 },
-      { time: "5:00 PM", name: "Snack", items: "Roasted chana + masala chai (no sugar)", kcal: 180 },
-      { time: "8:00 PM", name: "Dinner", items: "Grilled paneer bowl, sautéed veggies, clear soup", kcal: 380 },
+      { time: "7:30 AM", name: "Breakfast", items: "2-egg omelette + wholegrain toast, yoghurt, green tea", kcal: 340 },
+      { time: "11:00 AM", name: "Mid-morning", items: "Guava + 6 soaked almonds", kcal: 150 },
+      { time: "1:30 PM", name: "Lunch", items: "2 chapati, chana daal, cucumber-carrot salad, raita", kcal: 480 },
+      { time: "5:00 PM", name: "Snack", items: "Roasted chickpeas + doodh patti (no sugar)", kcal: 180 },
+      { time: "8:00 PM", name: "Dinner", items: "Grilled chicken tikka, sautéed vegetables, clear soup", kcal: 380 },
     ],
   },
   {
@@ -25,9 +25,9 @@ const PLANS: Plan[] = [
     meals: [
       { time: "8:00 AM", name: "Breakfast", items: "Vegetable oats upma + flaxseed, cinnamon water", kcal: 360 },
       { time: "11:00 AM", name: "Mid-morning", items: "Handful of walnuts + 1 orange", kcal: 190 },
-      { time: "1:30 PM", name: "Lunch", items: "Millet khichdi, palak sabzi, curd, salad", kcal: 520 },
+      { time: "1:30 PM", name: "Lunch", items: "Millet khichdi, saag, raita, salad", kcal: 520 },
       { time: "5:00 PM", name: "Snack", items: "Sprout salad + spearmint tea", kcal: 170 },
-      { time: "8:00 PM", name: "Dinner", items: "Grilled fish or tofu, stir-fried broccoli, 1 jowar roti", kcal: 410 },
+      { time: "8:00 PM", name: "Dinner", items: "Grilled fish or tofu, stir-fried broccoli, 1 chapati", kcal: 410 },
     ],
   },
   {
@@ -35,11 +35,11 @@ const PLANS: Plan[] = [
     label: "Diabetes",
     note: "Carb-timed, high fibre · ~1,700 kcal",
     meals: [
-      { time: "7:30 AM", name: "Breakfast", items: "2 besan cheela, low-fat curd, methi water", kcal: 380 },
+      { time: "7:30 AM", name: "Breakfast", items: "2-egg omelette, low-fat yoghurt, lemon water", kcal: 380 },
       { time: "11:00 AM", name: "Mid-morning", items: "Apple with peanut butter (1 tsp)", kcal: 180 },
-      { time: "1:30 PM", name: "Lunch", items: "2 multigrain roti, dal, bhindi sabzi, raita", kcal: 540 },
-      { time: "5:00 PM", name: "Snack", items: "Boiled corn chaat + unsweetened tea", kcal: 190 },
-      { time: "7:30 PM", name: "Dinner", items: "Vegetable dalia, grilled chicken/soy chunks, salad", kcal: 420 },
+      { time: "1:30 PM", name: "Lunch", items: "2 multigrain chapati, daal, mixed sabzi, raita", kcal: 540 },
+      { time: "5:00 PM", name: "Snack", items: "Boiled corn + unsweetened tea", kcal: 190 },
+      { time: "7:30 PM", name: "Dinner", items: "Vegetable barley, grilled chicken/soy chunks, salad", kcal: 420 },
     ],
   },
   {
@@ -49,9 +49,9 @@ const PLANS: Plan[] = [
     meals: [
       { time: "6:00 AM", name: "Pre-workout", items: "Banana + black coffee + 5 dates", kcal: 320 },
       { time: "9:00 AM", name: "Breakfast", items: "4-egg omelette, 3 toast, avocado, milk", kcal: 720 },
-      { time: "1:00 PM", name: "Lunch", items: "Rice, chicken curry / rajma, salad, curd", kcal: 780 },
+      { time: "1:00 PM", name: "Lunch", items: "Rice, chicken karahi / chana daal, salad, raita", kcal: 780 },
       { time: "5:00 PM", name: "Snack", items: "Greek yoghurt bowl with granola + berries", kcal: 380 },
-      { time: "8:30 PM", name: "Dinner", items: "Quinoa pulao, grilled paneer, roasted veggies", kcal: 400 },
+      { time: "8:30 PM", name: "Dinner", items: "Chicken pulao, grilled paneer, roasted vegetables", kcal: 400 },
     ],
   },
 ];
@@ -68,7 +68,7 @@ export default function MealPlan() {
           eyebrow="Sample Plans"
           title="A real day on"
           highlight="your plan"
-          copy="Familiar Indian food, portioned with intent. Every member's plan is rebuilt around their labs, schedule and taste."
+          copy="Familiar Pakistani food, portioned with intent. Every member's plan is rebuilt around their labs, schedule and taste."
         />
 
         <Reveal delay={100}>

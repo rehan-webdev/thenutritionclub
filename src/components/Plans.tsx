@@ -80,7 +80,7 @@ export default function Plans() {
                       p.highlight ? "text-leaf-300" : "text-brand-600",
                     )}
                   >
-                    ₹{(quarterly ? p.quarterly : p.monthly).toLocaleString("en-IN")}
+                    PKR {(quarterly ? p.quarterly : p.monthly).toLocaleString("en-PK")}
                   </span>
                   <span className={cn("mb-1 text-[13px] font-semibold", p.highlight ? "text-white/60" : "text-ink-soft")}>
                     /{quarterly ? "quarter" : "month"}
